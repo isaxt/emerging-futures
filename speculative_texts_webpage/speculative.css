@@ -41,13 +41,6 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
-}
-
-.footer {
-    margin-top: 80px;
-    text-align: center;
-    color: #666;
-    font-size: 12px;
 }
