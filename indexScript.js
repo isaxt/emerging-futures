@@ -36,3 +36,23 @@ screen.addEventListener('click', function() {
 });
 
 // see if i can have a "typing out" effect for the smaller text
+
+// Add navigation functionality to buttons
+document.querySelectorAll('.button').forEach(button => {
+    button.addEventListener('click', function() {
+        const url = this.getAttribute('data-url');
+        if (url) {
+            window.location.href = url;
+        }
+    });
+});
+
+// Your existing enter button code (if you have it)
+const enterButton = document.querySelector('.enter-button');
+if (enterButton) {
+    enterButton.addEventListener('click', function() {
+        document.getElementById('splashContent').classList.add('hidden');
+        document.getElementById('mainContent').classList.remove('hidden');
+    });
+}
+
