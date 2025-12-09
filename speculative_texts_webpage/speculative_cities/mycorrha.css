@@ -1,0 +1,44 @@
+body {
+    background: url('./background/bg_2.png') repeat;
+    margin: 0;
+    font-family: "BernhardMod BT", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.main-title {
+    font-family: "Baskerville Old Face", serif;
+    color: #012c04;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.notes {
+  width: 75%;
+  background-color: #edebeb;
+  border: 2px solid #0d2a1e;
+  padding: 15px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.note-title {
+    color: #3c3721;
+    font-family: "Baskerville Old Face", serif;
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 0.3em 0;
+    text-align: center;
+}
+
+.note-text {
+    color: #3a570e;
+    font-family: "Times", serif;
+    font-size: 1.1em;
+    margin: 0.3em 0;
+    line-height: 1.2;
+    text-align: center;
+}
