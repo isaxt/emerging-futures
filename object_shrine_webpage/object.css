@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2d1b3d 0%, #131320 100%);
+    padding: 20px;
+}
+
+.page-title {
+    font-family: serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #e3d7ff;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+}
+
+.altar-scene {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.altar-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.altar-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
+}
+
+.shelf-items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.item {
+    position: absolute;
+    width: auto;
+    height: auto;
+    transition: transform 0.3s ease;
+    pointer-events: auto;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 5px 15px rgba(255, 255, 255, 0.3));
+}
+
+/* Top shelf items */
+.cross {
+    width: 8%;
+    top: 30%;
+    left: 12%;
+}
+
+.incense-box {
+    width: 10%;
+    top: 29%;
+    left: 36%;
+}
+
+.rosary-1 {
+    width: 10%;
+    top: 30%;
+    left: 50%;
+}
+
+.nintendo-ds {
+    width: 9%;
+    top: 29%;
+    right: 12%;
+}
+
+/* Middle shelf items */
+.gameboy {
+    width: 8%;
+    top: 42%;
+    right: 12%;
+}
+
+.phone {
+    width: 12%;
+    top: 40%;
+    left: 10%;
+}
+
+.pager {
+    width: 10%;
+    top: 40%;
+    right: 38%;
+    
+}
+
+.rosary-2 {
+    width: 10%;
+    top: 40%;
+    left: 35%;
+}
+
+/* bottom shelf items */
+
+.circuit-board {
+    width: 9%;
+    bottom: 40%;
+    left: 12%;
+}
+
+.tricorder {
+    width: 11%;
+    bottom: 39%;
+    left: 35%;
+}
+
+
+.buddha {
+    width: 12%;
+    bottom: 39%;
+    right: 35%;
+}
+
+.incense-holder {
+    width: 9%;
+    bottom: 39%;
+    right: 12%;
+}
