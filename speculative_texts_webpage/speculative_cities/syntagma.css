@@ -1,0 +1,53 @@
+body {
+    background: url('./background/bg_3.png') repeat;
+    font-family: 'BernhardMod BT', sans-serif;
+    line-height: 1.4;
+    padding: 60px;
+}
+
+.center {
+    text-align: center;
+}
+
+.poem-title {
+    font-size: large;
+    color: #e4d7e6;
+    font-weight: bold;
+}
+
+.section-title {
+    font-family: 'BernhardMod BT';
+    color: #7C4A86;
+}
+
+.text1{
+    color: #ddc5f7;
+    font-family: 'BernhardMod BT';
+    font-size: large;
+}
+
+.section-divider {
+    width: 80%;
+    border-color: #7C4A86;
+}
+
+.text2 {
+    color: #9ee5e5;
+    font-family: 'BernhardMod BT';
+    font-size: large;
+}
+
+.text3 {
+    color: #141e1e;
+    font-family: 'BernhardMod BT';
+    font-size: larger;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,7 +1,7 @@
 body {
     background: url('./background/bg_2.png') repeat;
     margin: 0;
-    font-family: "BernhardMod BT", serif;
+    font-family: monospace, serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,8 +10,8 @@ body {
 }
 
 .main-title {
-    font-family: "Baskerville Old Face", serif;
-    color: #012c04;
+    font-family: "Georgia", serif;
+    color: #96b398;
     font-size: 2.5em;
     text-align: center;
 }
@@ -19,14 +19,14 @@ body {
 .notes {
   width: 75%;
   background-color: #edebeb;
-  border: 2px solid #0d2a1e;
+  border: 2px solid #9ea7a3;
   padding: 15px;
   margin-bottom: 15px;
   line-height: 1.2;
 }
 
 .note-title {
-    color: #3c3721;
+    color: #3f513c;
     font-family: "Baskerville Old Face", serif;
     font-size: 1em;
     line-height: 1.2;
@@ -35,7 +35,7 @@ body {
 }
 
 .note-text {
-    color: #3a570e;
+    color: #1d2215;
     font-family: "Times", serif;
     font-size: 1.1em;
     margin: 0.3em 0;
