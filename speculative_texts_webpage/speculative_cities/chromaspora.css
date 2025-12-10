@@ -1,0 +1,48 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./background/bg_4.png') repeat;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.title-section h1 {
+    color: #a9c4c6;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.award-banner {
+    background: #bcecf0;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.award-title {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.award-date {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.8;
+}
