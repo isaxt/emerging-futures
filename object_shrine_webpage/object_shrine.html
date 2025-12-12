@@ -14,26 +14,39 @@
             <img src="object_shrine_assets/shrine_shelf.png" alt="Gothic Altar" class="altar-image">
             
             <div class="shelf-items">
-                <!-- Top shelf items -->
-                <img src="object_shrine_assets/bio_christ.png" class="item cross" alt="Cross">
-                <img src="object_shrine_assets/bio_incense.png" class="item incense-box" alt="Incense Box">
-                <img src="object_shrine_assets/bio_tech_rosary.png" class="item rosary-1" alt="Rosary">
-                <img src="object_shrine_assets/clear_ds.png" class="item nintendo-ds" alt="Nintendo DS">
+                <!-- top shelf items -->
+<img src="object_shrine_assets/bio_christ.png" class="item cross" alt="Cross" data-item="cross">
+<img src="object_shrine_assets/bio_incense.png" class="item incense-box" alt="Incense Box" data-item="incense-box">
+<img src="object_shrine_assets/bio_tech_rosary.png" class="item rosary-1" alt="Rosary" data-item="rosary-1">
+<img src="object_shrine_assets/clear_ds.png" class="item nintendo-ds" alt="Nintendo DS" data-item="nintendo-ds">
 
-                <!-- Middle shelf items -->
-                <img src="object_shrine_assets/clear_gameboy.png" class="item gameboy" alt="Game Boy">
-                <img src="object_shrine_assets/clear_phone.png" class="item phone" alt="Phone">
-                <img src="object_shrine_assets/heart_arduino.png" class="item circuit-board" alt="Circuit Board">
-                <img src="object_shrine_assets/mold_rosary.png" class="item rosary-2" alt="Prayer Beads">
+<!-- middle shelf items -->
+<img src="object_shrine_assets/clear_gameboy.png" class="item gameboy" alt="Game Boy" data-item="gameboy">
+<img src="object_shrine_assets/clear_phone.png" class="item phone" alt="Phone" data-item="phone">
+<img src="object_shrine_assets/heart_arduino.png" class="item circuit-board" alt="Circuit Board" data-item="circuit-board">
+<img src="object_shrine_assets/mold_rosary.png" class="item rosary-2" alt="Prayer Beads" data-item="rosary-2">
 
-                 <!-- bottom shelf items -->
-                <img src="object_shrine_assets/green_clear_printer.png" class="item tricorder" alt="Tricorder">
-                <img src="object_shrine_assets/tech_buddha.png" class="item buddha" alt="Buddha Shrine">
-                <img src="object_shrine_assets/tech_incense.png" class="item incense-holder" alt="Incense Holder">
-                <img src="object_shrine_assets/old_tech.png" class="item pager" alt="Pager">
+<!-- bottom shelf items -->
+ <!--i just realized that i mixed up the assets... shhhhh-->
+ <!--at what point can you tell i am losing my sanity-- everything is so meta-->
+<img src="object_shrine_assets/green_clear_printer.png" class="item tricorder" alt="Tricorder" data-item="tricorder">
+<img src="object_shrine_assets/tech_buddha.png" class="item buddha" alt="Buddha Shrine" data-item="buddha">
+<img src="object_shrine_assets/tech_incense.png" class="item incense-holder" alt="Incense Holder" data-item="incense-holder">
+<img src="object_shrine_assets/old_tech.png" class="item pager" alt="Pager" data-item="pager">
                 
             </div>
         </div>
     </div>
+     <!-- modal/pop up  -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <h2 id="modalTitle" class="modal-title"></h2>
+            <p id="modalDescription" class="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="object.js"></script>
 </body>
 </html>

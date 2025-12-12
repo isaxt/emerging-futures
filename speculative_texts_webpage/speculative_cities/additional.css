@@ -1,0 +1,32 @@
+body {
+    background: url('./background/bg_8.png') repeat;
+    font-family: serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(198, 198, 198)
+}
+
+hr {
+    border: none;
+    border-top: 4px solid #180a21;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 1rem 0;
+    color:rgb(255, 255, 255)
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: normal;
+    color: #ffe8e8;
+}
